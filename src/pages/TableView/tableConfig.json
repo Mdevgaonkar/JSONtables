@@ -1,0 +1,122 @@
+{
+    "columnsConfigs": {
+        "/accNumber":{
+            "columnName": "Account Number",
+            "columnKey": "accNumber",
+            "path":"/accNumber",
+            "default": "",
+            "primaryKey":true
+        },
+        "/batchNumber":{
+            "columnName": "Batch",
+            "columnKey": "batchNumber",
+            "path":"/batchNumber",
+            "default": ""
+        },
+        "/invoiceTemplate":{
+            "columnName": "Invoice Template",
+            "columnKey": "invoiceTemplate",
+            "path":"/invoiceTemplate",
+            "default": ""
+        },
+        "/billToContact":{
+            "columnName": "Bill To Contact",
+            "columnKey": "billToContact",
+            "path":"/billToContact",
+            "default": "",
+            "defaultChildKey":"fName"
+        },
+        "/billToContact/fName":{
+            "columnName": "FirstName",
+            "columnKey": "fName",
+            "path":"/billToContact/fName",
+            "default": "",
+            "primaryKey":true
+        },
+        "/billToContact/phone":{
+            "columnName": "Phone",
+            "columnKey": "phone",
+            "path":"/billToContact/phone",
+            "default": "",
+            "primaryKey":true
+        },
+        "/billToContact/lName":{
+            "columnName": "Last Name",
+            "columnKey": "lName",
+            "path":"/billToContact/lName",
+            "default": "",
+            "primaryKey":true
+        },
+        "/billToContact/email":{
+            "columnName": "Email",
+            "columnKey": "email",
+            "path":"/billToContact/email",
+            "default": "",
+            "primaryKey":true
+        },
+        "/billToContact/address":{
+            "columnName": "Address",
+            "columnKey": "address",
+            "path":"/billToContact/address",
+            "default": "",
+            "defaultChildKey":"zipCode"
+        },
+        "/billToContact/address/country":{
+            "columnName": "Country",
+            "columnKey": "country",
+            "path":"/billToContact/address/country",
+            "default": ""
+        },
+        "/billToContact/address/state":{
+            "columnName": "State",
+            "columnKey": "state",
+            "path":"/billToContact/address/state",
+            "default": ""
+        },
+        "/billToContact/address/zipCode":{
+            "columnName": "Zip Code",
+            "columnKey": "zipCode",
+            "path":"/billToContact/address/zipCode",
+            "default": ""
+        },
+        "/orders":{
+            "columnName": "Orders",
+            "columnKey": "orders",
+            "path":"/orders",
+            "default": ""
+        },
+        "/orders/product":{
+            "columnName": "Product",
+            "columnKey": "product",
+            "path":"/orders/product",
+            "default": "",
+            "primaryKey":true
+        },
+        "/orders/productRatePlan":{
+            "columnName": "Product Rate Plan",
+            "columnKey": "productRatePlan",
+            "path":"/orders/productRatePlan",
+            "default": "",
+            "primaryKey":true
+        },
+        "/orders/charges":{
+            "columnName": "Charges",
+            "columnKey": "charges",
+            "path":"/orders/charges",
+            "default": ""
+        },
+        "/orders/charges/chargePrice":{
+            "columnName": "Charge Price",
+            "columnKey": "chargePrice",
+            "path":"/orders/charges/chargePrice",
+            "default": ""
+        },
+        "/orders/charges/chargeType":{
+            "columnName": "Charge Type",
+            "columnKey": "chargeType",
+            "path":"/orders/charges/chargeType",
+            "default": "",
+            "primaryKey" : true
+        }
+    }
+}
